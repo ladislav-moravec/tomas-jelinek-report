@@ -3,8 +3,8 @@ body {
   font-family: "Courier New", monospace;
   font-family: "Times New Roman", serif;
   font-family: Arial, sans-serif;
-  max-width: 650px; /* Šířka A4 papíru */
-  margin: 0 left; /* Zarovnání na střed */
+  max-width: 800px; /* Šířka A4 papíru */
+  margin: 0 middle; /* Zarovnání na střed */
 }
 
 /* Úpravy pro header */
@@ -32,7 +32,7 @@ h2 {
 /* Úpravy pro graf */
 .chart img {
   width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   height: auto;
   border: 0px solid #ccc;
   box-sizing: border-box;
