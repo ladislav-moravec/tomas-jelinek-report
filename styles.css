@@ -4,7 +4,7 @@ body {
   font-family: "Times New Roman", serif;
   font-family: Arial, sans-serif;
   max-width: 800px; /* Šířka A4 papíru */
-  margin: 0 middle; /* Zarovnání na střed */
+  margin: 0 center; /* Zarovnání na střed */
 }
 
 /* Úpravy pro header */
