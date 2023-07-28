@@ -1,12 +1,12 @@
 @font-face {
     font-family: Poppins;
-    src: url(Poppins-Regular.ttf);
+    src: url(fonty/Poppins-Regular.ttf);
     font-weight: normal;
 }
 
 @font-face {
     font-family: Poppins;
-    src: url(Poppins-ExtraBold.ttf);
+    src: url(fonty/Poppins-ExtraBold.ttf);
     font-weight: bold;
 }
 
@@ -20,13 +20,12 @@ body {
     margin: 0;
     padding: 100px 0px 0px 0px;
     min-height: 100vh;
-    min-width: 600px;
+    min-width: 960px;
 }
 
 body > header {
     height: 100px;
     width: 100%;
-    min-width: 860px;
     background: #050344;
     color: #ffd700;
     display: flex;
@@ -34,7 +33,6 @@ body > header {
     position: fixed;
     z-index: 1;
     top: 0;
-
 }
 
 #logo {
@@ -131,7 +129,6 @@ article header {
     height: 80px;
 }
 
-
 article section p {
     margin-bottom: 1.5em;
     line-height: 1.8em;
@@ -158,8 +155,7 @@ footer a {
 
 .global_chart{
 	float: right;
-    max-width: 600px;
-    height: auto;
+	width: 600px;
 	padding-left: 20px;
 	/*filter: grayscale(1);*/
 }

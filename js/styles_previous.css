@@ -1,0 +1,83 @@
+/* Globální nastavení fontu pro všechny prvky */
+body {
+  font-family: "Courier New", monospace;
+  font-family: "Times New Roman", serif;
+  font-family: Arial, sans-serif;
+  max-width: 650px; /* Šířka A4 papíru */
+  margin: 0 left; /* Zarovnání na střed */
+}
+
+/* Úpravy pro header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Úpravy pro nadpis v headeru */
+header h1 {
+  margin: 0;
+}
+
+/* Úpravy pro obsah */
+.content {
+  margin: 20px;
+}
+
+/* Úpravy pro nadpis */
+h2 {
+  color: #333;
+}
+
+/* Úpravy pro graf */
+.chart img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border: 0px solid #ccc;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.chart {
+  position: relative;
+}
+
+.legend {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.legend-item {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.legend-color {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+
+/* Úpravy pro text */
+.text {
+  max-width: 600px; /* Nastavte menší hodnotu pro zúžení */
+  margin-top: 15px;
+  text-align:justify
+}
+
+/* Úpravy pro footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}

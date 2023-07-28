@@ -14,9 +14,8 @@ options.add_argument("--headless")  # Spuštění prohlížeče v headless módu
 service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service, options=options)
 
-
 # Načtení stránky s iframe
-driver.get("https://app.koyfin.com/share/3d84ee57c8/simple")
+driver.get("https://app.koyfin.com/share/6faf725b56/simple")
 
 # Počkejte, až se stránka načte (změňte dobu podle potřeby)
 time.sleep(5)  # Počká 5 sekund (můžete upravit)
@@ -26,25 +25,22 @@ wait = WebDriverWait(driver, 30)  # Změňte na delší dobu, pokud je potřeba
 iframe = wait.until(EC.presence_of_element_located((By.TAG_NAME, "iframe")))
 driver.switch_to.frame(iframe)
 
-# Počkejte na načtení obsahu iframe (pokud je potřeba)
-driver.implicitly_wait(20)
-
 # Zachytění screenshotu stránky s iframe
 screenshot = driver.get_screenshot_as_png()
 
 # Uložení screenshotu jako obrázek
-with open("valueGrow_chart.png", "wb") as file:
+with open("global_chart.png", "wb") as file:
     file.write(screenshot)
 
 # Otevření obrázku s pomocí Pillow
-image = Image.open("valueGrow_chart.png")
+image = Image.open("global_chart.png")
 
 # Přidání bílého okraje
 border_size = 5
 image_with_border = ImageOps.expand(image, border=border_size, fill="white")
 
 # Uložení obrázku s bílým okrajem
-image_with_border.save("valueGrow_chart_with_border.png")
+image_with_border.save("global_chart_with_border.png")
 
 # Ukončení prohlížeče
 driver.quit()

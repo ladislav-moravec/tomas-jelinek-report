@@ -14,7 +14,6 @@ options.add_argument("--headless")  # Spuštění prohlížeče v headless módu
 service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service, options=options)
 
-
 # Načtení stránky s iframe
 driver.get("https://app.koyfin.com/share/3d84ee57c8/simple")
 
