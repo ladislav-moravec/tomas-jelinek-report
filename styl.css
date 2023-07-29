@@ -267,8 +267,10 @@ footer a {
 
   footer {
     position: fixed;
-    height: 70px;
-    padding: 20px 0 0 0;
+    height: 80px;
+    padding: 30px 0 0 0;
+    clip-path: polygon(0 30px, 100% 0, 100% 100%, 0 100%);
+
   }
     /* Additional styles as needed */
   }
