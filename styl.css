@@ -262,3 +262,13 @@ footer a {
     margin-right: 6px;
 }
 
+/* Mobile styles */
+@media screen and (max-width: 900px) {
+
+  footer {
+    position: fixed;
+    height: 70px;
+    padding: 20px 0 0 0;
+  }
+    /* Additional styles as needed */
+  }
