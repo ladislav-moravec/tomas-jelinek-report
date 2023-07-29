@@ -184,12 +184,13 @@ article section a {
 footer {
     box-sizing: border-box;
     text-align: center;
-    height: 100px;
+    height: 80px;
     color: gold;
     background: #050344;
-    padding: 50px 0 0 0;
-    clip-path: polygon(0 30px, 100% 0, 100% 100%, 0 100%);
+    padding: 20px 0 0 0;
+    /*clip-path: polygon(0 30px, 100% 0, 100% 100%, 0 100%);*/
 }
+
 
 footer a {
     color: gold;
