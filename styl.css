@@ -73,6 +73,8 @@ body > header {
     position: fixed;
     z-index: 1;
     top: 0;
+    left: 0;
+    right: 0;
 
 }
 
@@ -188,6 +190,10 @@ footer {
     color: gold;
     background: #050344;
     padding: 20px 0 0 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     /*clip-path: polygon(0 30px, 100% 0, 100% 100%, 0 100%);*/
 }
 
