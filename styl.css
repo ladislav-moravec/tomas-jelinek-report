@@ -281,8 +281,14 @@ footer a {
     position: absolute;
     left: 20px;
     top: 30%;
-}
   }
+
+  .global_chart{
+    float: none;
+    display: block; /* Zobrazí obrázek jako blokový prvek, aby mohl použít margin: 0 auto; */
+    margin: 0 auto; /* Horizontální centrování obrázku vůči rodičovskému kontejneru */
+  }
+}
 
 
 
