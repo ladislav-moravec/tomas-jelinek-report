@@ -273,8 +273,15 @@ footer a {
 
   }
 
+  .hidden-menu {
+    display: none;
+  }
 
-
+  #logo  {
+    position: absolute;
+    left: 20px;
+    top: 30%;
+}
   }
 
 
