@@ -154,6 +154,7 @@ article h6 {
     padding: 10px 0;
     color: #050344;
     font-weight: 900;
+    line-height: 0.4;
 }
 
 article h1 {
@@ -167,6 +168,10 @@ article h1 {
 
 article h2 {
     font-size: 2em;
+}
+
+article h3 {
+    font-size: 1.5em;
 }
 
 article header {
@@ -288,8 +293,18 @@ footer a {
     display: block; /* Zobrazí obrázek jako blokový prvek, aby mohl použít margin: 0 auto; */
     margin: 0 auto; /* Horizontální centrování obrázku vůči rodičovskému kontejneru */
   }
+  .tradingview-widget-container{
+    float: none;
+    display: block; /* Zobrazí obrázek jako blokový prvek, aby mohl použít margin: 0 auto; */
+    margin: 0 auto; /* Horizontální centrování obrázku vůči rodičovskému kontejneru */
+  }
 }
 
-
+.tradingview-widget-container{
+    float: right;
+    max-width: 600px;
+    height: auto;
+	padding-left: 20px;
+}
 
 
