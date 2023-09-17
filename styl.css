@@ -310,4 +310,8 @@ footer a {
 	padding-left: 20px;
 }
 
+article h4 {
+    text-indent: 20px; /* Odsazení prvního řádku */
+    line-height: 1.2em; /* Výška řádku je 1.5krát větší než velikost textu */
 
+}
