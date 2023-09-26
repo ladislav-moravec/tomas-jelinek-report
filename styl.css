@@ -301,6 +301,9 @@ footer a {
     display: block; /* Zobrazí obrázek jako blokový prvek, aby mohl použít margin: 0 auto; */
     margin: 0 auto; /* Horizontální centrování obrázku vůči rodičovskému kontejneru */
   }
+  .reit_picture{
+    max-width: 100%;
+  }
 }
 
 .tradingview-widget-container{
@@ -315,3 +318,22 @@ article h4 {
     line-height: 1.2em; /* Výška řádku je 1.5krát větší než velikost textu */
 
 }
+article h2 {
+    line-height: 1.2em; /* Výška řádku je 1.5krát větší než velikost textu */
+
+}
+
+li p {
+    margin: 0;
+}
+
+
+li {
+    margin: -0.6em;
+}
+
+
+li {
+    margin-bottom: 1em; /* nebo jiná hodnota podle vašich preferencí */
+}
+
