@@ -215,6 +215,7 @@ footer a {
     max-width: 600px;
     height: auto;
 	padding-left: 20px;
+
 	/*filter: grayscale(1);*/
 }
 
@@ -296,18 +297,19 @@ footer a {
     display: block; /* Zobrazí obrázek jako blokový prvek, aby mohl použít margin: 0 auto; */
     margin: 0 auto; /* Horizontální centrování obrázku vůči rodičovskému kontejneru */
   }
+
   .tradingview-widget-container{
     float: none;
     display: block; /* Zobrazí obrázek jako blokový prvek, aby mohl použít margin: 0 auto; */
     margin: 0 auto; /* Horizontální centrování obrázku vůči rodičovskému kontejneru */
   }
+
   .reit_picture{
     max-width: 100%;
   }
 }
 
 .tradingview-widget-container{
-    float: right;
     max-width: 600px;
     height: auto;
 	padding-left: 20px;
@@ -320,7 +322,10 @@ article h4 {
 }
 article h2 {
     line-height: 1.2em; /* Výška řádku je 1.5krát větší než velikost textu */
-
+}
+article h3 {
+    line-height: 1.2em; /* Výška řádku je 1.5krát větší než velikost textu */
+    text-align: left;
 }
 
 li p {
@@ -336,5 +341,4 @@ li {
 li {
     margin-bottom: 1em; /* nebo jiná hodnota podle vašich preferencí */
 }
-
 
